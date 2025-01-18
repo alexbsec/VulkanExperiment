@@ -45,9 +45,9 @@ brew install glm
 
 You can download GLM from its GitHub repository:
 
-1- Visit GLM GitHub Repository.
-2- Download the latest release.
-3- Add the glm directory to your project's include path.
+1. Visit GLM GitHub Repository.
+2. Download the latest release.
+3. Add the glm directory to your project's include path.
 
 #### Using `vcpkg`
 
