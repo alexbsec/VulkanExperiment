@@ -76,7 +76,7 @@ cmake .. && cd ..
 ```
 
 Back on the root directory, if you are using NeoVim with clangd as your LSP,
-you must run the following command to make it understand the C++23 syntax
+you must run the following command to enable C++23 syntax support:
 
 ```bash
 cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -S . -B build
