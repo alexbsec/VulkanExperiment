@@ -13,7 +13,12 @@ class VeWindow {
 public:
   VeWindow(int w, int h, const string &name);
   ~VeWindow();
-  
+
+  // Copy delete constructor to have only one
+  // ownership
+  VeWindow(const VeWindow &) = delete;
+  VeWindow &operator=(const VeWindow &) = delete;
+
   bool ShouldClose() { return glfwWindowShouldClose(m_window); }
 
 private:
