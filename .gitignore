@@ -1,0 +1,10 @@
+.git/
+build/
+.cache/
+build/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
