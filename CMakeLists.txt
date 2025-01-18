@@ -10,7 +10,7 @@ find_package(Vulkan REQUIRED)
 add_subdirectory(lib/glfw-3.4)
 
 # Add GLM (Manual Include)
-include_directories(lib/glm-1.0.1-light)
+find_package(glm)
 
 # Include source files and headers
 include_directories(${CMAKE_SOURCE_DIR})
