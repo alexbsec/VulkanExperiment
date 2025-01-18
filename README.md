@@ -1,11 +1,17 @@
 # VulkanExperiment
 
-This should be a simple Vulkan Engine following Vulkan tutorials
+This is a simple Vulkan engine following Vulkan tutorials. The project aims to provide a basic engine implementation and serves as a learning resource for Vulkan.
 
-## Compiling
+## Prerequisites
 
-To compile this project, you must have GLM and Vulkan installed on
-your local machine
+Before compiling, ensure you have the following installed:
+- A C++23-compatible compiler (e.g., GCC, Clang, or MSVC).
+- CMake (version 3.10 or higher).
+- Vulkan SDK installed and configured on your system.
+
+## Dependencies
+
+This project depends on GLM and Vulkan.
 
 ### Installing GLM
 
@@ -55,7 +61,7 @@ vcpkg install glm
 
 To install Vulkan, please follow Vulkan's [tutorial](https://vulkan-tutorial.com/Development_environment) page
 
-### Building
+## Building
 
 To build the project, you must first create the build directory:
 
