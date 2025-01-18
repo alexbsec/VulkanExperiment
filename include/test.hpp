@@ -1,0 +1,6 @@
+#ifndef _VULKAN_EXPERIMENT_TEST_HPP
+#define _VULKAN_EXPERIMENT_TEST_HPP
+
+const int myInt = 2;
+
+#endif // _VULKAN_EXPERIMENT_TEST_HPP
