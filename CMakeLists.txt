@@ -17,6 +17,8 @@ include_directories(${CMAKE_SOURCE_DIR})
 
 set(SOURCES
     src/main.cpp
+    include/window/window.cpp
+    include/app/app.cpp
 )
 
 # Add executable
