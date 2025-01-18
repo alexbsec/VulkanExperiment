@@ -4,7 +4,7 @@ This should be a simple Vulkan Engine following Vulkan tutorials
 
 ## Compiling
 
-To compile this project, you need to have GLM installed on
+To compile this project, you must have GLM and Vulkan installed on
 your local machine
 
 ### Installing GLM
@@ -50,6 +50,10 @@ If you're using `vcpkg` as your package manager, you can install using
 ```bash
 vcpkg install glm
 ```
+
+### Installing Vulkan
+
+To install Vulkan, please follow Vulkan's [tutorial](https://vulkan-tutorial.com/Development_environment) page
 
 ### Building
 
