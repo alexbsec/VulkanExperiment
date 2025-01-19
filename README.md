@@ -96,4 +96,26 @@ Finally, to build, simply run:
 cmake --build build
 ```
 
+### Compiling shaders
 
+#### On Unix systems
+To compile shaders on Unix systems, use `compile.sh` file. First, find your
+`glslc` executable path. Then, change the alias in the `compile.sh` to the 
+path to `glslc` executable. Example:
+
+```bash
+alias glslc=/path/to/glslc
+```
+
+#### On Windows
+
+To compile shaders on Windows, modify the `compile.bat` script as follows:
+
+1. Locate the path to your `glslc.exe` file.
+2. Update the line in the script to reflect the correct path to `glslc.exe`. Replace:
+
+```bat
+set GLSLC="C:\path\to\glslc.exe"
+```
+
+with your actual `glslc.exe` location.
