@@ -13,7 +13,8 @@ vector<char> VePipeline::ReadFile(const string &filepath) {
   std::ifstream file(filepath, std::ios::ate | std::ios::binary);
   if (!file.is_open()) {
     throw std::runtime_error(
-        "VePipeline::Readfile error: failed to open file at " + filepath);
+        "VePipeline::Readfile error: failed to open file at " + filepath +
+        ". Have the shaders been compiled?");
   }
 
   size_t fileSize = static_cast<size_t>(file.tellg());
