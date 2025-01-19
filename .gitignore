@@ -2,6 +2,8 @@
 build/
 .cache/
 build/
+shaders/*.spv
+
 *.o
 *.a
 *.so
