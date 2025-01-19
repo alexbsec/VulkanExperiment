@@ -19,6 +19,7 @@ set(SOURCES
     src/main.cpp
     include/window/window.cpp
     include/app/app.cpp
+    include/pipeline/pipeline.cpp
 )
 
 # Add executable
